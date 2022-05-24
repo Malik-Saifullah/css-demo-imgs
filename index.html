@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        *,*::before,*::after{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        img{
+            display: block;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        .desptop{
+            max-width: 1920px;
+            height: 1080px;
+        }
+        .tab{
+            max-width: 960px;
+            height: 700px;
+        }
+        .mobile{
+            max-width: 640px;
+            height: 1136px;
+        }
+    </style>
+</head>
+<body>
+    <h1>1920 by 1080 (Desktop large)</h1>
+    <img src="./bg-01.jpg" class="desptop" width="1920" height="1080" alt="">
+    <br>
+    <br>
+
+    <h1>960 by 700</h1>
+    <img src="./bg-01.jpg" class="tab" width="960" height="700" alt="">
+    <br>
+    <br>
+
+    <h1>640 by 1136 px (iPhone 5)</h1>
+    <img src="./bg-01.jpg" class="mobile" width="640" height="1136" alt="">
+</body>
+</html>
