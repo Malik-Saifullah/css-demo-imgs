@@ -15,34 +15,46 @@
             display: block;
             width: 100%;
             object-fit: cover;
-            object-position: center;
-        }
-        .desptop{
-            max-width: 1920px;
-            height: 1080px;
-        }
-        .tab{
-            max-width: 960px;
+            object-position: center right;
             height: 700px;
         }
+        .largeScreen{
+            max-width: 1920px;
+        }
+        .desptop{
+            max-width: 1440px;
+        }
+        .tab{
+            max-width: 1080px;
+        }
         .mobile{
-            max-width: 640px;
-            height: 1136px;
+            max-width: 414px;
         }
     </style>
 </head>
 <body>
-    <h1>1920 by 1080 (Desktop large)</h1>
-    <img src="./bg-01.jpg" class="desptop" width="1920" height="1080" alt="">
+    <h1>2400*700 (original)</h1>
+    <img src="./bg-01.jpg" width="2400" height="700" alt="">
     <br>
     <br>
 
-    <h1>960 by 700</h1>
-    <img src="./bg-01.jpg" class="tab" width="960" height="700" alt="">
+    <h1>1920*700</h1>
+    <img src="./bg-01.jpg" class="largeScreen" width="1920" height="700" alt="">
     <br>
     <br>
 
-    <h1>640 by 1136 px (iPhone 5)</h1>
-    <img src="./bg-01.jpg" class="mobile" width="640" height="1136" alt="">
+    <h1>1440*700</h1>
+    <img src="./bg-01.jpg" class="desptop" width="1440" height="700" alt="">
+    <br>
+    <br>
+
+    <h1>1080*700</h1>
+    <img src="./bg-01.jpg" class="tab" width="1080" height="700" alt="">
+    <br>
+    <br>
+
+    <h1>414*700</h1>
+    <img src="./bg-01.jpg" class="mobile" width="414" height="700" alt="">
+
 </body>
 </html>
